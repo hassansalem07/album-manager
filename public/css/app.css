@@ -1,0 +1,61 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin-top: 50px;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.album-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+.album-card {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.album-card h2 {
+    margin-bottom: 10px;
+}
+.album-actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-secondary {
+    background-color: #6c757d;
+}
+.btn-danger {
+    background-color: #dc3545;
+}
+
+.dropzone {
+    border: 2px dashed #007bff;
+    border-radius: 5px;
+    background: white;
+}
